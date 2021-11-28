@@ -36,7 +36,7 @@ def main():
 	
 	# Show Dataset
 
-	if st.checkbox("Show Dataset"):
+	if st.checkbox("Show Product Price"):
 		
 		st.dataframe(df)
 
@@ -46,7 +46,7 @@ def main():
 	#all_columns_names = df_data.columns.tolist()
 	type_of_model = st.selectbox("Select Type of model",["DIVEERA JUICE","JEEVANRAKSHA SYRUP","HARBAL TEA","NARI URJA"])
 
-	if st.button("Unicare product Image"):
+	if st.button(" Touch Me:Unicare product Image"):
 		#st.success("Generating Customizable Plot of {} for {}".format(type_of_plot,selected_columns_names))
 
 		# Plot By Streamlit
@@ -73,7 +73,7 @@ def main():
 			st.image(image_NU)
 			#st.pyplot()
 
-	if st.button("CHILD PRODUCT:URJITTAM"):
+	if st.button("Touch Me:- CHILD PRODUCT:URJITTAM"):
 		#st.write(results)
 		st.image(image_UM)
 		
@@ -87,7 +87,7 @@ def main():
 	st.sidebar.info("Unicare remedies is giving health solutions and health services since 1997 in different forms with slogan Let's make india healthy")
 
 	st.sidebar.header("company name")
-	st.sidebar.markdown("[www.unicareremedies.com]("")")
+	st.sidebar.markdown("[https://www.unicareremedies.com]("")")
 
 	st.sidebar.header("About")
 	st.sidebar.info("uttakarshcreation@gmail.com")
